@@ -30,7 +30,7 @@ public class Calculator {
             }
 
             operatorName = words[0];
-            args = new LinkedList<>(Arrays.asList(words).subList(1, words.length));
+            args = Arrays.asList(words).subList(1, words.length);
 
             operator = OperatorFactory.getInstance().createOperator(operatorName);
 
