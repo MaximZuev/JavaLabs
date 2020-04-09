@@ -1,0 +1,68 @@
+2020-04-08 20:06:34 INFO  Main:14 - The calculator started working.
+2020-04-08 20:06:34 INFO  OperatorFactory:15 - Operator factory was created.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator DEFINE was created.
+2020-04-08 20:06:34 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-08 20:06:34 INFO  Push:31 - PUSH 2.0.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-08 20:06:34 INFO  Push:31 - PUSH 4.0.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator SQRT was created.
+2020-04-08 20:06:34 INFO  Sqrt:29 - SQRT(4.0) = 2.0.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator * was created.
+2020-04-08 20:06:34 INFO  Multiplication:30 - 2.0 * 2.0 = 4.0.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator # was created.
+2020-04-08 20:06:34 INFO  Comm:11 - Comment: bla bla.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator PRINT was created.
+2020-04-08 20:06:34 INFO  Print:27 - PRINT 4.0.
+2020-04-08 20:06:34 INFO  OperatorFactory:41 - Operator POP was created.
+2020-04-08 20:06:34 INFO  Pop:25 - POP 4.0.
+2020-04-08 20:06:34 INFO  Main:22 - The calculator is finished.
+2020-04-08 20:12:27 INFO  Main:14 - The calculator started working.
+2020-04-08 20:12:27 INFO  OperatorFactory:15 - Operator factory was created.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator DEFINE was created.
+2020-04-08 20:12:27 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-08 20:12:27 INFO  Push:31 - PUSH 2.0.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-08 20:12:27 ERROR Push:24 - Invalid args.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator SQRT was created.
+2020-04-08 20:12:27 INFO  Sqrt:29 - SQRT(2.0) = 1.4142135623730951.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator * was created.
+2020-04-08 20:12:27 ERROR Multiplication:19 - Stack is empty.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator # was created.
+2020-04-08 20:12:27 INFO  Comm:11 - Comment: bla bla.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator PRINT was created.
+2020-04-08 20:12:27 INFO  Print:27 - PRINT 1.4142135623730951.
+2020-04-08 20:12:27 INFO  OperatorFactory:41 - Operator POP was created.
+2020-04-08 20:12:27 INFO  Pop:25 - POP 1.4142135623730951.
+2020-04-08 20:12:27 INFO  Main:22 - The calculator is finished.
+2020-04-08 21:51:09 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-08 22:09:53 INFO  Div:30 - 1.0 / 10.0 = 0.1.
+2020-04-08 22:10:53 INFO  Div:30 - -1.0 / 10.0 = -0.1.
+2020-04-08 22:12:14 INFO  Multiplication:30 - 10.0 * -1.9 = -19.0.
+2020-04-08 22:16:23 INFO  Pop:25 - POP 10.0.
+2020-04-08 22:20:10 INFO  Push:31 - PUSH 8.0.
+2020-04-08 22:21:38 INFO  Push:31 - PUSH 8.0.
+2020-04-08 22:21:38 INFO  Push:31 - PUSH 101.0.
+2020-04-08 22:25:55 INFO  Sqrt:29 - SQRT(100.0) = 10.0.
+2020-04-08 22:28:22 INFO  Sub:30 - 100.0 - 12.0 = -88.0.
+2020-04-08 22:29:52 INFO  Sum:30 - 12.0 + -12.0 = 0.0.
+2020-04-08 22:30:46 INFO  Main:14 - The calculator started working.
+2020-04-08 22:30:46 INFO  OperatorFactory:15 - Operator factory was created.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator DEFINE was created.
+2020-04-08 22:30:46 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-08 22:30:46 INFO  Push:31 - PUSH 2.0.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-08 22:30:46 INFO  Push:31 - PUSH 4.0.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator SQRT was created.
+2020-04-08 22:30:46 INFO  Sqrt:29 - SQRT(4.0) = 2.0.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator * was created.
+2020-04-08 22:30:46 INFO  Multiplication:30 - 2.0 * 2.0 = 4.0.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator # was created.
+2020-04-08 22:30:46 INFO  Comm:11 - Comment: bla bla.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator PRINT was created.
+2020-04-08 22:30:46 INFO  Print:27 - PRINT 4.0.
+2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator POP was created.
+2020-04-08 22:30:46 INFO  Pop:25 - POP 4.0.
+2020-04-08 22:30:46 INFO  Main:22 - The calculator is finished.

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab2.calculator.operators.DivTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-08T15:31:08" hostname="DESKTOP-HUMFO19" time="0.003">
+  <properties/>
+  <testcase name="execute" classname="lab2.calculator.operators.DivTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
