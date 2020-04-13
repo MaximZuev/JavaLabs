@@ -66,3 +66,135 @@
 2020-04-08 22:30:46 INFO  OperatorFactory:41 - Operator POP was created.
 2020-04-08 22:30:46 INFO  Pop:25 - POP 4.0.
 2020-04-08 22:30:46 INFO  Main:22 - The calculator is finished.
+2020-04-08 22:31:08 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-08 22:31:08 INFO  Div:30 - -1.0 / 10.0 = -0.1.
+2020-04-08 22:31:08 INFO  Multiplication:30 - 10.0 * -1.9 = -19.0.
+2020-04-08 22:31:08 INFO  Pop:25 - POP 10.0.
+2020-04-08 22:31:08 INFO  Push:31 - PUSH 8.0.
+2020-04-08 22:31:08 INFO  Push:31 - PUSH 101.0.
+2020-04-08 22:31:08 INFO  Sqrt:29 - SQRT(100.0) = 10.0.
+2020-04-08 22:31:08 INFO  Sub:30 - 100.0 - 12.0 = -88.0.
+2020-04-08 22:31:08 INFO  Sum:30 - 12.0 + -12.0 = 0.0.
+2020-04-09 14:14:19 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-09 14:14:19 INFO  Div:30 - -1.0 / 10.0 = -0.1.
+2020-04-09 14:14:19 INFO  Multiplication:30 - 10.0 * -1.9 = -19.0.
+2020-04-09 14:14:19 INFO  Pop:25 - POP 10.0.
+2020-04-09 14:14:19 INFO  Push:31 - PUSH 8.0.
+2020-04-09 14:14:19 INFO  Push:31 - PUSH 101.0.
+2020-04-09 14:14:19 INFO  Sqrt:29 - SQRT(100.0) = 10.0.
+2020-04-09 14:14:19 INFO  Sub:30 - 100.0 - 12.0 = -88.0.
+2020-04-09 14:14:19 INFO  Sum:30 - 12.0 + -12.0 = 0.0.
+2020-04-09 14:15:25 INFO  Main:14 - The calculator started working.
+2020-04-09 14:15:25 INFO  OperatorFactory:15 - Operator factory was created.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator DEFINE was created.
+2020-04-09 14:15:25 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-09 14:15:25 INFO  Push:31 - PUSH 2.0.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-09 14:15:25 INFO  Push:31 - PUSH 4.0.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator SQRT was created.
+2020-04-09 14:15:25 INFO  Sqrt:29 - SQRT(4.0) = 2.0.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator * was created.
+2020-04-09 14:15:25 INFO  Multiplication:30 - 2.0 * 2.0 = 4.0.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator # was created.
+2020-04-09 14:15:25 INFO  Comm:11 - Comment: bla bla.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator PRINT was created.
+2020-04-09 14:15:25 INFO  Print:27 - PRINT 4.0.
+2020-04-09 14:15:25 INFO  OperatorFactory:41 - Operator POP was created.
+2020-04-09 14:15:25 INFO  Pop:25 - POP 4.0.
+2020-04-09 14:15:25 INFO  Main:22 - The calculator is finished.
+2020-04-09 20:15:00 INFO  Main:15 - The calculator started working.
+2020-04-09 20:15:00 INFO  OperatorFactory:15 - Operator factory was created.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator DEFINE was created.
+2020-04-09 20:15:00 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-09 20:15:00 INFO  Push:31 - PUSH 2.0.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator PUSH was created.
+2020-04-09 20:15:00 INFO  Push:31 - PUSH 4.0.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator SQRT was created.
+2020-04-09 20:15:00 INFO  Sqrt:29 - SQRT(4.0) = 2.0.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator * was created.
+2020-04-09 20:15:00 INFO  Multiplication:30 - 2.0 * 2.0 = 4.0.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator # was created.
+2020-04-09 20:15:00 INFO  Comm:11 - Comment: bla bla.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator PRINT was created.
+2020-04-09 20:15:00 INFO  Print:27 - PRINT 4.0.
+2020-04-09 20:15:00 INFO  OperatorFactory:41 - Operator POP was created.
+2020-04-09 20:15:00 INFO  Pop:25 - POP 4.0.
+2020-04-09 20:15:00 INFO  Main:23 - The calculator is finished.
+2020-04-10 17:25:33 ERROR Main:23 - Filefile.txtnot found.
+2020-04-10 17:25:40 ERROR Main:23 - Filefile.txtnot found.
+2020-04-10 17:28:33 ERROR Main:23 - File resources/file.txtnot found.
+2020-04-10 17:36:25 INFO  Main:32 - Used System.in.
+2020-04-10 17:36:25 INFO  Main:35 - The calculator started working.
+2020-04-10 17:37:15 INFO  OperatorFactory:16 - Operator factory was created.
+2020-04-10 17:37:15 INFO  OperatorFactory:45 - Operator PUSH was created.
+2020-04-10 17:37:15 INFO  Push:32 - PUSH 1.0.
+2020-04-10 17:37:17 INFO  Main:43 - The calculator is finished.
+2020-04-10 19:26:53 INFO  Main:32 - Used System.in.
+2020-04-10 19:26:53 INFO  Main:35 - The calculator started working.
+2020-04-10 19:27:12 INFO  OperatorFactory:16 - Operator factory was created.
+2020-04-10 19:27:12 INFO  OperatorFactory:45 - Operator DEFINE was created.
+2020-04-10 19:27:12 INFO  Define:32 - DEFINE: a = 4.0.
+2020-04-10 19:27:15 INFO  OperatorFactory:45 - Operator PUSH was created.
+2020-04-10 19:27:15 INFO  Push:33 - PUSH 4.0.
+2020-04-10 19:27:21 ERROR Calculator:51 - Operator PUDH was not found.
+2020-04-10 19:27:45 INFO  OperatorFactory:45 - Operator PUSH was created.
+2020-04-10 19:27:45 ERROR Push:26 - Invalid args.
+2020-04-10 19:27:45 ERROR Calculator:48 - 
+2020-04-10 19:28:05 INFO  OperatorFactory:45 - Operator * was created.
+2020-04-10 19:28:05 ERROR Multiplication:21 - Stack is empty.
+2020-04-10 19:28:05 ERROR Calculator:48 - 
+2020-04-10 19:28:08 INFO  OperatorFactory:45 - Operator PRINT was created.
+2020-04-10 19:28:08 INFO  Print:29 - PRINT 4.0.
+2020-04-10 19:28:12 INFO  Main:43 - The calculator is finished.
+
+2020-04-10 19:31:23 INFO  Main:32 - Used System.in.
+2020-04-10 19:31:23 INFO  Main:35 - The calculator started working.
+2020-04-10 19:31:55 INFO  OperatorFactory:16 - Operator factory was created.
+2020-04-10 19:31:55 ERROR Calculator:51 - Operator qw was not found.
+2020-04-10 19:31:59 ERROR Calculator:51 - Operator qr was not found.
+2020-04-10 19:32:02 ERROR Calculator:51 - Operator v was not found.
+2020-04-10 19:32:07 INFO  Main:43 - The calculator is finished.
+
+2020-04-10 19:33:46 INFO  Main:19 - The calculator started working.
+2020-04-10 19:33:46 INFO  Main:34 - Used System.in.
+2020-04-10 19:34:04 INFO  Main:43 - The calculator is finished.
+
+2020-04-10 19:44:33 INFO  Main:19 - The calculator started working.
+2020-04-10 19:44:33 INFO  Main:25 - Used src/main/resources/file.txt.
+2020-04-10 19:44:33 INFO  OperatorFactory:16 - Operator factory was created.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator DEFINE was created.
+2020-04-10 19:44:33 INFO  Define:30 - DEFINE: a = 4.0.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator PUSH was created.
+2020-04-10 19:44:33 INFO  Push:31 - PUSH 2.0.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator PUSH was created.
+2020-04-10 19:44:33 INFO  Push:31 - PUSH 4.0.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator SQRT was created.
+2020-04-10 19:44:33 INFO  Sqrt:29 - SQRT(4.0) = 2.0.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator * was created.
+2020-04-10 19:44:33 INFO  Multiplication:30 - 2.0 * 2.0 = 4.0.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator # was created.
+2020-04-10 19:44:33 INFO  Comm:12 - Comment: bla bla.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator PRINT was created.
+2020-04-10 19:44:33 INFO  Print:27 - PRINT 4.0.
+2020-04-10 19:44:33 INFO  OperatorFactory:45 - Operator POP was created.
+2020-04-10 19:44:33 INFO  Pop:25 - POP 4.0.
+2020-04-10 19:44:33 INFO  Main:43 - The calculator is finished.
+
+2020-04-10 19:45:06 INFO  Main:19 - The calculator started working.
+2020-04-10 19:45:06 INFO  Main:34 - Used System.in.
+2020-04-10 19:45:16 INFO  OperatorFactory:16 - Operator factory was created.
+2020-04-10 19:45:16 ERROR Calculator:53 - Operator push was not found.
+2020-04-10 19:45:21 INFO  OperatorFactory:45 - Operator PUSH was created.
+2020-04-10 19:45:21 ERROR Calculator:48 - Invalid args for operator.
+2020-04-10 19:45:23 INFO  Main:43 - The calculator is finished.
+
+2020-04-10 19:47:19 INFO  Main:19 - The calculator started working.
+2020-04-10 19:47:19 INFO  Main:34 - Used System.in.
+2020-04-10 19:47:27 INFO  OperatorFactory:16 - Operator factory was created.
+2020-04-10 19:47:27 ERROR Calculator:53 - Operator push was not found.
+2020-04-10 19:47:29 INFO  OperatorFactory:45 - Operator POP was created.
+2020-04-10 19:47:29 ERROR Calculator:50 - Not enough elements for POP in stack.
+2020-04-10 19:47:32 INFO  Main:43 - The calculator is finished.
+

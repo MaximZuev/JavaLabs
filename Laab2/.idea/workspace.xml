@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfcc012e-f1e2-4c66-84cc-477ad483fad1" name="Default Changelist" comment="" />
+    <list default="true" id="bfcc012e-f1e2-4c66-84cc-477ad483fad1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/exeptions/InvalidArgsForOperatorsExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab2/exeptions/NotEnoughElementsInTheStackExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/OperatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/OperatorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Comm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Comm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Define.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Define.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Div.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Div.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Pop.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Pop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Push.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Push.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Sqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Sqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/calculator/operators/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/lab2/context/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/lab2/context/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/DefineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/DefineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/DivTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/DivTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/MultiplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/MultiplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/PopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/PopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/PushTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/PushTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/SqrtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/SqrtTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/SubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/SubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/SumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/lab2/calculator/operators/SumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.DefineTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.DefineTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.DivTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.DivTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.MultiplicationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.MultiplicationTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.PopTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.PopTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.PushTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.PushTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.SqrtTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.SqrtTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.SubTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.SubTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.SumTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/lab2.calculator.operators.SumTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/lab2.calculator.operators.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/lab2.calculator.operators.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.DefineTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.DefineTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.DivTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.DivTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.MultiplicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.MultiplicationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.PopTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.PopTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.PushTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.PushTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.SqrtTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.SqrtTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.SubTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.SubTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.SumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-lab2.calculator.operators.SumTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/OperatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/OperatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Comm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Comm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Define.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Define.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Div.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Div.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Pop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Push.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Push.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Sqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/calculator/operators/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab2/context/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab2/context/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/DefineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/DefineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/DivTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/DivTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/MultiplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/PopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/PopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/PushTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/PushTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/SqrtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/SqrtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/SubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/SubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab2/calculator/operators/SumTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,15 +130,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1aFWzTcbQju8TFkSMXSVDV6med0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -81,7 +169,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'Laab2.test'">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab2.Main" />
       <module name="Laab2.main" />
@@ -195,6 +283,14 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.Tests in 'Laab2.test'" />
+      <item itemvalue="Gradle.PushTest.execute" />
+      <item itemvalue="Gradle.SqrtTest.execute" />
+      <item itemvalue="Gradle.SubTest.execute" />
+      <item itemvalue="Gradle.SumTest.execute" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -217,6 +313,11 @@
       <updated>1586332084817</updated>
       <workItem from="1586332090399" duration="4983000" />
       <workItem from="1586337883114" duration="15284000" />
+      <workItem from="1586416323066" duration="684000" />
+      <workItem from="1586437877841" duration="3701000" />
+      <workItem from="1586513529971" duration="7451000" />
+      <workItem from="1586521084681" duration="155000" />
+      <workItem from="1586521339001" duration="1591000" />
     </task>
     <servers />
   </component>
@@ -236,6 +337,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="389" y="26" key="#Tests_in_'Laab2.test'/0.0.1600.860@0.0.1600.860" timestamp="1586356093614" />
+    <state x="377" y="180" width="1092" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586522704217">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="377" y="180" width="1092" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1586522704217" />
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586518599226">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586518599226" />
     <state x="596" y="290" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586334584289">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -244,22 +353,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1586332996585" />
-    <state width="778" height="276" key="GridCell.Tab.0.bottom" timestamp="1586360973188">
+    <state width="1557" height="163" key="GridCell.Tab.0.bottom" timestamp="1586522943588">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586360973188" />
-    <state width="778" height="276" key="GridCell.Tab.0.center" timestamp="1586360973188">
+    <state width="1557" height="163" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586522943588" />
+    <state width="1557" height="163" key="GridCell.Tab.0.center" timestamp="1586522943588">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586360973188" />
-    <state width="778" height="276" key="GridCell.Tab.0.left" timestamp="1586360973188">
+    <state width="1557" height="163" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586522943588" />
+    <state width="1557" height="163" key="GridCell.Tab.0.left" timestamp="1586522943588">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586360973188" />
-    <state width="778" height="276" key="GridCell.Tab.0.right" timestamp="1586360973188">
+    <state width="1557" height="163" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586522943588" />
+    <state width="1557" height="163" key="GridCell.Tab.0.right" timestamp="1586522943588">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586360973188" />
+    <state width="1557" height="163" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586522943588" />
     <state width="778" height="276" key="GridCell.Tab.1.bottom" timestamp="1586360973189">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -276,10 +385,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="778" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1586360973189" />
-    <state x="495" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1586337890570">
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1586521443986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586337890570" />
+    <state x="495" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586521443986" />
+    <state x="609" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586442583505">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1586442583505" />
     <state x="620" y="160" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586359717534">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -288,6 +401,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="432" y="0" width="736" height="860" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1586356287061" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586520306819">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1600.860@0.0.1600.860" timestamp="1586520306819" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1586334686557">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -1,6 +1,7 @@
 package lab2.calculator.operators;
 
 import lab2.context.Context;
+import lab2.exeptions.InvalidArgsForOperatorsExceptions;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -12,7 +13,7 @@ import static org.junit.Assert.*;
 public class PushTest {
 
     @Test
-    public void execute() {
+    public void execute() throws InvalidArgsForOperatorsExceptions {
         Push push = new Push();
         Context context = new Context();
         push.execute(context, Collections.singletonList("8"));

@@ -35,4 +35,8 @@ public class Context {
     public double get(String key) {
         return definitions.get(key);
     }
+
+    public boolean isDefine(String key) {
+        return definitions.containsKey(key);
+    }
 }

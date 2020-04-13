@@ -1,6 +1,8 @@
 package lab2.calculator.operators;
 
 import lab2.context.Context;
+import lab2.exeptions.InvalidArgsForOperatorsExceptions;
+import lab2.exeptions.NotEnoughElementsInTheStackExceptions;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -12,7 +14,7 @@ import static org.junit.Assert.*;
 public class DivTest {
 
     @Test
-    public void execute() {
+    public void execute() throws NotEnoughElementsInTheStackExceptions, InvalidArgsForOperatorsExceptions {
         Div division = new Div();
         Context context = new Context();
         context.push(-1);
