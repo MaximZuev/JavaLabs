@@ -50,7 +50,7 @@ public class Model implements Observable{
                 step();
                 notifyObservers(Event.MOVE);
                 if (isEnded()) {
-                    score.addScore(getPoints());
+                    score.updateScore();
                     try {
                         saveScore();
                     } catch (IOException e) {
@@ -99,13 +99,13 @@ public class Model implements Observable{
                 map.setCell(xTail, yTail, Cell.SNAKE);
                 map.setCell(xNext, yNext, Cell.SNAKE);
                 map.putFood();
+                score.addScore(points());
                 break;
         }
-
     }
 
-    private int getPoints() {
-        return (difficulty.ordinal() + 1) * snake.getLength() * 10;
+    private int points() {
+        return (difficulty.ordinal() + 1) * 10;
     }
 
     private void loadScore() throws IOException, ClassNotFoundException {

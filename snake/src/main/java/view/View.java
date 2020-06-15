@@ -15,7 +15,6 @@ public class View extends JFrame implements Observer {
     private Font font = new Font("Monospaced", Font.PLAIN, 40);
     private Map map;
     private Score score;
-    private JComponent gameField;
 
     public View(Map map, Score score) {
         super("Snake");
@@ -49,17 +48,21 @@ public class View extends JFrame implements Observer {
         jPanel.removeAll();
         jPanel.setLayout(new BorderLayout());
 
-        gameField = new JComponent() {
+        JTextField scoreField = new JTextField();
+        scoreField.setFont(font);
+
+        JComponent gameField = new JComponent() {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
+                scoreField.setText("Score: " + score.getCurrentTry());
                 Graphics2D g2 = (Graphics2D) g;
                 Image snakeImg = new ImageIcon(getClass().getResource("/snake.png")).getImage();
                 Image foodImg = new ImageIcon(getClass().getResource("/food.png")).getImage();
                 Image nothingImg = new ImageIcon(getClass().getResource("/nothing.png")).getImage();
                 for (int i = 0; i < MyConfig.MAP_HEIGHT; ++i) {
                     for (int j = 0; j < MyConfig.MAP_WIDTH; ++j) {
-                        switch(map.getCell(i, j)){
+                        switch (map.getCell(i, j)) {
                             case NOTHING:
                                 g2.drawImage(nothingImg, j * 25, (MyConfig.MAP_HEIGHT - i - 1) * 25, null);
                                 break;
@@ -76,6 +79,7 @@ public class View extends JFrame implements Observer {
         };
 
         jPanel.add(gameField);
+        jPanel.add(scoreField, BorderLayout.PAGE_END);
         gameField.revalidate();
     }
 
@@ -108,7 +112,7 @@ public class View extends JFrame implements Observer {
     public void update(Event event) {
         switch (event) {
             case MOVE:
-                gameField.repaint();
+                jPanel.repaint();
                 break;
             case START:
                 setGameFrame();
